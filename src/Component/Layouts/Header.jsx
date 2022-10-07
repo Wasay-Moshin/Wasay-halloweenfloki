@@ -1,5 +1,4 @@
 import React from "react";
-// import { Button } from 'antd';
 function Header() {
   return (
     <div>
@@ -25,33 +24,33 @@ function Header() {
           >
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  About
+                <a className="nav-link active c1" href="/">
+                <b>About</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active c1" href="/">
+                <b> Tokenomics</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active c1" href="/">
+                  <b>Roadmap</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active c1" href="/">
+                 <b> Documents</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active c1" href="/">
+                <b> FAQ</b>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" href="/">
-                  Tokenomics
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  Roadmap
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  Documents
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  FAQ
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                {/* <Button>Default Button</Button> */}
+                <button type="button" className="btn1"><b>MINT FLOH RAFFLE NFT</b></button>
                 </a>
               </li>
             </ul>

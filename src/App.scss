@@ -1,76 +1,95 @@
-.navbar{
-    background-color:#FF5C01;
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Noto+Sans+Mono:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Roboto:wght@300&display=swap');
+
+.navbar {
+  background-color: #ff5c01;
+}
+.btn1 {
+  background-color: transparent;
+  color: white;
+  border-radius: #000000;
+  border-radius: 20px;
+}
+.btn1:hover{
+    color: gray;
+}
+.helloween{ 
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.hero-card{
+  background-color: #745f985E !important;
+  width:90% !important;
+  padding-top: 30px !important;
+}
+.c1{
+    color:white !important;
+}
+.c1:hover{
+    color: gray !important;
 }
 .bg1 {
   background-image: url("Media/halloween.jpeg");
   background-size: cover;
-  width: 100%;
-  height: 70vh;
-  p {
-    display: flex;
-    font-size: 50px;
+  // width: 100%;
+  // height: 80vh;
+  h1 {
     color: white;
+    font-weight: 500;
+    font-family: Nosifer;
   }
 }
-.card{
-    // display: flex;
-    // align-items: center;
-    padding: 40px;
-    border-radius:10px;
-    background-color: rgba(177, 172, 242, 0.308);
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    // margin-bottom: 50px;
-    flex-direction: column;
+.bg2 {
+  background-color: #000000;
 }
-.bg2{
-    background-color: #000000;
+.pc {
+  color: white !important;
 }
-.pc{
-    color:white;
+.img1 {
+  display: flex;
+  align-items: center;
 }
-.img1{
-    display: flex;
-    align-items: center;
+.bg3 {
+  background-image: url("Media/bg-banner.png");
+  background-color: #745f98;
 }
-.bg3{
-    background-image: url('Media/bg-banner.png');
-    background-color: #745F98;
+ul {
+  list-style: square;
 }
-ul{
-    list-style: square;
+.bg4 {
+  background-color: #745f98;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.bg4{
-    background-color: #745F98;
-    padding-bottom: 20px;
+.bg5 {
+  background-color: #000000;
+  border-radius: 10px;
 }
-.bg5{
-    background-color: #000000;
-    border-radius: 10px;
+.bg6{
+  background-color:#000000;
+  background-image: url("Media/bg4.png");
+  background-repeat: no-repeat;
 }
-.card{
-    background-color: transparent;
-    border: transparent;
+.card {
+  background-color: transparent;
+  border: transparent;
 }
-.card:hover{
-    background-color: rgba(222, 130, 130, 0.5);
+.card:hover {
+  background-color: rgba(222, 130, 130, 0.5);
 }
-.ic{
-    display: flex;
-    flex-direction: row;
+.ic {
+  display: flex;
+  flex-direction: row;
 }
-.btn{
-    border-radius: 50px !important;
-    background-color:#F3A327 !important;
+.btn {
+  border-radius: 50px !important;
+  background-color: #f3a327 !important;
 }
-.btn:hover{
-    background-color: #F3A327 !important;
+.btn:hover {
+  background-color: #f3a327 !important;
 }
-.footer{
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    height: 50vh;
+.footer {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  height: 50vh;
 }
