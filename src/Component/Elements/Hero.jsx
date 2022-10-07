@@ -7,10 +7,12 @@ function Hero() {
       <div className="container text-center helloween">
         <div className="row">
           <div className="col-md-6">
+            <div data-aos="zoom-in">
             <h1>
-              Halloween <br />
+              Halloween<br />
               Floki
             </h1>
+            </div>
           </div>
           <div className="col-md-6">
             <div>

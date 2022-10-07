@@ -4,7 +4,9 @@ import "./App.scss";
 import Header from "./Component/Layouts/Header";
 import Home from "./Pages/Home";
 import Footer from "./Component/Layouts/Footer";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 function App() {
   return (
     <div>
